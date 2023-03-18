@@ -22,7 +22,6 @@ export default async function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <Login />
         <SessionProvider session={session}>
           {!session ? (
             <Login />
